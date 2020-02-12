@@ -11,3 +11,42 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+  padding: 10px;
+  padding-top: 10px;
+}
+
+.restaurant {
+  font-size: 28px;
+  text-align: left;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.new_restaurant {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
